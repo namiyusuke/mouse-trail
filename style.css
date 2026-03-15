@@ -1,0 +1,10 @@
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  clip-path: polygon(100% 50%, 0% 0%, 25% 50%, 0% 100%);
+  will-change: transform;
+}
+.box-wrap {
+  transform: translate(-20px, -20px);
+}
